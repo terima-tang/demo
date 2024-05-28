@@ -58,7 +58,7 @@ public class test {
 
     }
 
-    public Ob print_test(){
+    public Object print_test(){
         System.out.println("123");
         return null;
     }
