@@ -1,12 +1,25 @@
 package entity;
 
 public class test {
+
+
+    public Object obj;
     int a1;
     protected int a2;
 
     private int a3;
 
     public int a4;
+
+    public test() {
+    }
+
+    public test(int a1, int a2, int a3, int a4) {
+        this.a1 = a1;
+        this.a2 = a2;
+        this.a3 = a3;
+        this.a4 = a4;
+    }
 
     public int getA1() {
         return a1;
@@ -39,4 +52,16 @@ public class test {
     public void setA4(int a4) {
         this.a4 = a4;
     }
+
+    public void print(){
+        System.out.println("a1:"+a1+"a2:"+a2);
+
+    }
+
+    public Ob print_test(){
+        System.out.println("123");
+        return null;
+    }
+
+
 }
