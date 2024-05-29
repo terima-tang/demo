@@ -16,5 +16,6 @@ public class demo {
     public void output(){
         String str=son.testing();
         System.out.println(str);
+        System.out.println("测试");
     }
 }
