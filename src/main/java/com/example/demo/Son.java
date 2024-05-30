@@ -7,7 +7,7 @@ import entity.Test;
 public class Son extends Test {
 
 
-    Test test=new Test();
+    //Test test=new Test();
    // System.out.println("123");
 
 
@@ -19,7 +19,7 @@ public class Son extends Test {
 
    public static  String testing(){
         Test test = new Test();
-        int a= test.setA3(111);
+        test.setA3(111);
        System.out.println(test.getA3());
         return "123";
 }

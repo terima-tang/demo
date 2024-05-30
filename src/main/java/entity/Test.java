@@ -13,7 +13,7 @@ public  class Test {
 
     public Test() {
         System.out.println();
-        this(1,2,3,4);
+        //this(1,2,3,4);
     }
 
 
@@ -63,9 +63,8 @@ public  class Test {
     }
 
     public static void main(String[] args) {
-        System.out.println("a1:"+a1+"a2:"+a2+MAX_SEX);
+        System.out.println("测试test.java");
     }
-
     public Object printTest(){
         System.out.println("123");
         return null;
