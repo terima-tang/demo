@@ -1,11 +1,8 @@
 package entity;
 
-import com.example.demo.son;
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+public  class Test {
 
-public  class test {
-
-
+    public static final String MAX_SEX ="q妹";
     public Object obj;
     int a1;
     protected int a2;
@@ -14,10 +11,14 @@ public  class test {
 
     public int a4;
 
-    public test() {
+    public Test() {
+        System.out.println();
+        this(1,2,3,4);
     }
 
-    public test(int a1, int a2, int a3, int a4) {
+
+
+    public Test(int a1, int a2, int a3, int a4) {
         this.a1 = a1;
         this.a2 = a2;
         this.a3 = a3;
@@ -57,17 +58,21 @@ public  class test {
     }
 
     public void print(){
-        System.out.println("a1:"+a1+"a2:"+a2);
+        System.out.println("a1:"+a1+"a2:"+a2+MAX_SEX);
 
     }
 
-    public Object print_test(){
+    public static void main(String[] args) {
+        System.out.println("a1:"+a1+"a2:"+a2+MAX_SEX);
+    }
+
+    public Object printTest(){
         System.out.println("123");
         return null;
     }
 
 
-;
+
 
 
 
